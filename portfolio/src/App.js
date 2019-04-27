@@ -5,16 +5,16 @@ import {
   Header,
   Navigation,
   Drawer,
-  Content,
-  Button,
-  Card,
-  CardText
+  Content
+  // Button,
+  // Card,
+  // CardText
 } from "react-mdl";
 
 class App extends Component {
   render() {
     return (
-      <div style=" ">
+      <div>
         <Layout fixedHeader>
           <Header
             title={
