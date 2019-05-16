@@ -1,15 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import {
-  Layout,
-  Header,
-  Navigation,
-  Drawer,
-  Content
-  // Button,
-  // Card,
-  // CardText
-} from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 
 class App extends Component {
   render() {
@@ -25,7 +16,7 @@ class App extends Component {
             }
           >
             <Navigation>
-              <a href="#">Link</a>
+              <a href="https://www.facebook.com">About</a>
               <a href="#">Link</a>
               <a href="#">Link</a>
               <a href="#">Link</a>
