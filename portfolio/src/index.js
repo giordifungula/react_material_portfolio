@@ -6,9 +6,11 @@ import * as serviceWorker from "./serviceWorker";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import { BrowserRouter } from "react-router-dom";
+// comes from th react-router dom
 
 ReactDOM.render(
   <BrowserRouter>
+    {/* What does browser router do */}
     <App />
   </BrowserRouter>,
   document.getElementById("root")
