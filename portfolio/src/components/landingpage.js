@@ -14,7 +14,12 @@ class Landing extends Component {
             />
             <div className="banner-text">
               {/* Div under the image */}
-              <h2>Full Stack Web Dev</h2>
+              <h1>Full Stack Web Dev</h1>
+              <p>
+                HTML || CSS/Bootstrap || Javascript || React || NodeJS ||
+                MongoDB || Python
+              </p>
+              <hr />
             </div>
           </Cell>
           <Cell col={12}>1</Cell>

@@ -22,8 +22,9 @@
 
 .avatar-img {
   height: 200px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding-top: 5em;
+  display: block;
 }
 
 .banner-text {
@@ -34,7 +35,23 @@
   border-radius: 20px;
 }
 
-.banner-text h2 {
+.banner-text h1 {
   font-size: 3em;
-  font-weight: 900;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+}
+
+/* banner line */
+
+.banner-text hr {
+  border-top: 5px dotted #eee;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.banner-text p {
+  font-size: 1.7em;
+  color: #fff;
+  padding: 1em;
 }
