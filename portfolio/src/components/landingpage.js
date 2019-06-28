@@ -6,7 +6,17 @@ class Landing extends Component {
     return (
       <div className="landingMain">
         <Grid className="landing-grid">
-          <Cell col={12}>1</Cell>
+          <Cell col={12}>
+            <img
+              src="https://cdn.pixabay.com/photo/2016/03/31/19/10/avatar-1294769_960_720.png"
+              alt="avatar"
+              className="avatar-img"
+            />
+            <div className="banner-text">
+              {/* Div under the image */}
+              <h2>Full Stack Web Dev</h2>
+            </div>
+          </Cell>
           <Cell col={12}>1</Cell>
         </Grid>
       </div>

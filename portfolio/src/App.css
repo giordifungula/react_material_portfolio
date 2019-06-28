@@ -1,4 +1,40 @@
 .landingMain {
-  background: #eee;
-  margin: 0 auto
+  /* background: #eee; */
+  margin: 0 auto;
+  background: #e43a15;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e65245, #e43a15);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e65245, #e43a15);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Langind page */
+
+.header-color {
+  background: #e43a15;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e65245, #e43a15);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e65245, #e43a15);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.avatar-img {
+  height: 200px;
+  /* margin: 0 auto; */
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.banner-text h2 {
+  font-size: 3em;
+  font-weight: 900;
 }

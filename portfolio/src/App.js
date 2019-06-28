@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div>
         <Layout fixedHeader>
-          <Header title="Title" scroll>
+          <Header className="header-color" title="Title" scroll>
             {/* <Drawer title="Title"> */}
             <Navigation>
               <Link to="/resume">Resume</Link>
