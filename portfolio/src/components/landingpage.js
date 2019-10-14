@@ -22,7 +22,6 @@ class Landing extends Component {
               <hr />
             </div>
           </Cell>
-          <Cell col={12}>1</Cell>
         </Grid>
       </div>
     );
